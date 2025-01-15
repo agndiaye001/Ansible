@@ -1,0 +1,25 @@
+---
+- name: os debian 
+  hosts: debian
+  tasks:
+    - name: upgrade famille debian 
+      apt:
+       update_cache: yes
+       upgrade: full
+      when: ansible_os_family == 'Debian'
+    - name: upgrade
+      package:
+        name: "*"
+        state: latest 
+
+
+- name: os redhat
+  hosts: redhat
+  tasks:
+    - name: upgrade famille redhat  
+      dnf:
+       name: "*"
+       state: latest
+      when: ansible_os_family == 'Redhat'
+
+  

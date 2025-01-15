@@ -1,0 +1,9 @@
+---
+# handlers file for lamp
+- name: service_apache
+  service:
+    name: httpd
+    enabled: yes
+    state: started
+  when:  ansible_os_family =="RedHat"
+
