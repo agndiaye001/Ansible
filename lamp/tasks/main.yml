@@ -17,3 +17,7 @@
   with_items: '{{lamp_packages}}'
   when:  ansible_os_family == "RedHat"
   notify: service_apache
+- name: mise en place d'index.html 
+  template:
+    src: index.j2
+    dest: /var/www/html/index.html
