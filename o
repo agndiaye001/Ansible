@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+    - name:MAJ file hosts 
+      lineinfile:
+	path: /etc/hosts
+	line: 10.0.2.5 debian
+	state: present  

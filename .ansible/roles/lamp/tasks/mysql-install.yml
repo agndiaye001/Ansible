@@ -1,0 +1,44 @@
+---
+- name: 'Mysqld - Installation'
+  yum:
+   name: mariadb-server
+   state: present
+  notify: 'restart-mysqld'
+
+- meta: flush_handlers
+
+- name: 'Mysqld - Configuration - Resetting Root Password'
+  mysql_user:
+   login_user: root
+   login_password: ''
+   name: root
+   host_all: yes
+   password: "{{ mysql_root_password }}"   
+  notify: 'restart-mysqld'
+
+- name: 'Mysqld - Configuration - Removing Anonymous users'
+  mysql_user:
+   login_user: root
+   login_password: "{{ mysql_root_password }}"
+   name: ''
+   host_all: yes
+   state: absent
+  notify: 'restart-mysqld'
+
+- name: 'Mysqld - Configuration - Creating Additional DataBase'
+  mysql_db:
+   login_user: root
+   login_password: "{{ mysql_root_password }}"
+   db: "{{ mysql_database }}"
+   state: present
+  notify: 'restart-mysqld'
+
+- name: 'Mysqld - Configuration - Creating Additional User'
+  mysql_user:
+   login_user: root
+   login_password: "{{ mysql_root_password }}"
+   name: "{{ mysql_user }}"
+   host: localhost
+   password: "{{ mysql_password}}"
+   priv: "{{mysql_database}}.*:ALL"
+  notify: 'restart-mysqld'

@@ -1,0 +1,430 @@
+# Ce fichier viminfo a été généré par Vim 9.0.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche Substitue  :
+~MSle0~&    
+
+# Dernières chaînes de substitution :
+$
+
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+|2,0,1736963734,,"wq"
+:s
+|2,0,1736961384,,"s"
+:vsplit lamp/vars/Debian.yml
+|2,0,1736961068,,"vsplit lamp/vars/Debian.yml"
+:q
+|2,0,1736951126,,"q"
+:vsplit lamp/vars/RedHat.yml
+|2,0,1736948923,,"vsplit lamp/vars/RedHat.yml"
+:vsplit lamp/handlers/main.yml 
+|2,0,1736947463,,"vsplit lamp/handlers/main.yml "
+:1,$s/    //
+|2,0,1736946582,,"1,$s/    //"
+:dG
+|2,0,1736946507,,"dG"
+:vsplit lamp/tasks/main.yml
+|2,0,1736946421,,"vsplit lamp/tasks/main.yml"
+:lamp/tasks/main.yml
+|2,0,1736946396,,"lamp/tasks/main.yml"
+:vsplit lamp.yml
+|2,0,1736946149,,"vsplit lamp.yml"
+:q!
+|2,0,1736946103,,"q!"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?     
+|2,1,1736946554,,"    "
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+"0	LINE	0
+	
+|3,0,0,1,1,0,1736961516,""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1736961523,""
+"2	LINE	0
+	    - name: Intallation des dépendances Python sur RedHat
+|3,0,2,1,1,0,1736961508,"    - name: Intallation des dépendances Python sur RedHat"
+"3	LINE	0
+	mariadb_sock: /var/run/mysql/mysqld.sock
+|3,0,3,1,1,0,1736961384,"mariadb_sock: /var/run/mysql/mysqld.sock"
+"4	CHAR	0
+	
+	
+|3,0,4,0,2,0,1736961323,"",""
+"5	LINE	0
+	  when: when: ansible_os_family == "RedHat"
+|3,0,5,1,1,0,1736961293,"  when: when: ansible_os_family == \"RedHat\""
+"6	LINE	0
+	      when: ansible_os_family == "RedHat"
+|3,0,6,1,1,0,1736961245,"      when: ansible_os_family == \"RedHat\""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1736961240,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1736961219,""
+"9	LINE	0
+	  when: when: ansible_os_family == "Debian"
+|3,0,9,1,1,0,1736961153,"  when: when: ansible_os_family == \"Debian\""
+""-	CHAR	0
+	"
+|3,1,36,0,1,0,1736961538,"\""
+
+# Marques dans le fichier :
+'0  21  29  ~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml
+|4,48,21,29,1736963734,"~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml"
+'1  21  0  ~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml
+|4,49,21,0,1736963092,"~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml"
+'2  19  27  ~/playbooks/mariadb.yml
+|4,50,19,27,1736962187,"~/playbooks/mariadb.yml"
+'3  13  39  ~/playbooks/mariadb.yml
+|4,51,13,39,1736961968,"~/playbooks/mariadb.yml"
+'4  13  39  ~/playbooks/mariadb.yml
+|4,52,13,39,1736961968,"~/playbooks/mariadb.yml"
+'5  19  21  ~/playbooks/mariadb.yml
+|4,53,19,21,1736961886,"~/playbooks/mariadb.yml"
+'6  19  21  ~/playbooks/mariadb.yml
+|4,54,19,21,1736961886,"~/playbooks/mariadb.yml"
+'7  19  21  ~/playbooks/mariadb.yml
+|4,55,19,21,1736961886,"~/playbooks/mariadb.yml"
+'8  21  0  ~/playbooks/mariadb.yml
+|4,56,21,0,1736961701,"~/playbooks/mariadb.yml"
+'9  21  0  ~/playbooks/mariadb.yml
+|4,57,21,0,1736961701,"~/playbooks/mariadb.yml"
+
+# Liste de sauts (le plus récent en premier) :
+-'  21  29  ~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml
+|4,39,21,29,1736963734,"~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml"
+-'  1  0  ~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml
+|4,39,1,0,1736963137,"~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml"
+-'  21  0  ~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml
+|4,39,21,0,1736963092,"~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml"
+-'  21  0  ~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml
+|4,39,21,0,1736963092,"~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml"
+-'  1  0  ~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml
+|4,39,1,0,1736963080,"~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml"
+-'  1  0  ~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml
+|4,39,1,0,1736963080,"~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml"
+-'  19  27  ~/playbooks/mariadb.yml
+|4,39,19,27,1736962187,"~/playbooks/mariadb.yml"
+-'  19  27  ~/playbooks/mariadb.yml
+|4,39,19,27,1736962187,"~/playbooks/mariadb.yml"
+-'  19  27  ~/playbooks/mariadb.yml
+|4,39,19,27,1736962187,"~/playbooks/mariadb.yml"
+-'  19  27  ~/playbooks/mariadb.yml
+|4,39,19,27,1736962187,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736962039,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736962039,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736962039,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736962039,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736961968,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736961968,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736961968,"~/playbooks/mariadb.yml"
+-'  13  39  ~/playbooks/mariadb.yml
+|4,39,13,39,1736961968,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961909,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961909,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961909,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961909,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961886,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961886,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961886,"~/playbooks/mariadb.yml"
+-'  19  21  ~/playbooks/mariadb.yml
+|4,39,19,21,1736961886,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961820,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961701,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961701,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961701,"~/playbooks/mariadb.yml"
+-'  21  0  ~/playbooks/mariadb.yml
+|4,39,21,0,1736961701,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961662,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961657,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961657,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961657,"~/playbooks/mariadb.yml"
+-'  4  1  ~/playbooks/mariadb.yml
+|4,39,4,1,1736961657,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961637,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961620,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961620,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961620,"~/playbooks/mariadb.yml"
+-'  15  0  ~/playbooks/mariadb.yml
+|4,39,15,0,1736961620,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+-'  8  27  ~/playbooks/mariadb.yml
+|4,39,8,27,1736961577,"~/playbooks/mariadb.yml"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.ansible/tmp/ansible-local-532603op5ekfg/tmpshwt_265.yml
+	*	1736963733	0
+	"	21	29
+
+> ~/.ansible/tmp/ansible-local-53234ux0wd2qa/tmpg9ol4whe.yml
+	*	1736963091	0
+	"	21	0
+
+> ~/playbooks/mariadb.yml
+	*	1736962186	0
+	"	19	27
+	^	13	40
+	.	13	39
+	+	8	27
+	+	8	44
+	+	7	36
+	+	8	48
+	+	8	58
+	+	8	49
+	+	8	80
+	+	8	40
+	+	2	18
+	+	8	27
+	+	2	19
+	+	2	20
+	+	4	0
+	+	8	27
+	+	3	0
+	+	8	27
+	+	10	0
+	+	14	27
+	+	14	52
+	+	2	18
+	+	8	27
+	+	9	1
+	+	8	2
+	+	14	2
+	+	4	2
+	+	5	4
+	+	10	4
+	+	6	2
+	+	7	0
+	+	11	20
+	+	12	20
+	+	13	0
+	+	16	31
+	+	17	17
+	+	18	22
+	+	19	25
+	+	20	20
+	+	21	0
+	+	11	19
+	+	19	21
+	+	13	39
+
+> ~/playbooks/lamp/vars/Debian.yml
+	*	1736961386	0
+	"	11	0
+	^	8	13
+	.	12	0
+	+	3	0
+	+	4	0
+	+	12	0
+
+> ~/playbooks/lamp/handlers/main.yml
+	*	1736959967	0
+	"	15	16
+	^	15	17
+	.	14	15
+	+	3	0
+	+	10	0
+	+	11	22
+	+	13	16
+	+	14	15
+
+> ~/playbooks/lamp.yml
+	*	1736951126	0
+	"	4	9
+	^	4	10
+	.	4	10
+	+	3	27
+	+	3	10
+	+	5	0
+	+	3	8
+	+	4	10
+
+> ~/playbooks/lamp/vars/main.yml
+	*	1736949136	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	3	0
+	+	3	15
+	+	4	0
+	+	3	0
+
+> ~/playbooks/lamp/vars/RedHat.yml
+	*	1736948945	0
+	"	6	0
+	.	2	0
+	+	2	0
+
+> ~/playbooks/lamp/tasks/main.yml
+	*	1736948160	0
+	"	12	16
+	^	12	17
+	.	12	16
+	+	3	0
+	+	16	0
+	+	12	16
+	+	14	29
+	+	9	26
+	+	9	29
+	+	12	16

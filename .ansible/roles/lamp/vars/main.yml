@@ -1,0 +1,7 @@
+---
+domain: www.test.com
+mysql_root_password: mysqlroot123
+mysql_database: test
+mysql_user: testuser
+mysql_password: testpassword123
+
