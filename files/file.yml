@@ -1,9 +1,0 @@
----
-- hosts: all
-  vars:
-    file: passwd
-  tasks:
-    - name: copy de fichiers
-      copy:
-      src: '{{file}}'
-      dest: /tmp 
