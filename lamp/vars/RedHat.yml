@@ -1,6 +1,0 @@
-
-lamp_packages:
-  - httpd
-  - mariadb-server
-  - php
-  - php-mysqlnd
