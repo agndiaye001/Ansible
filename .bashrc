@@ -111,3 +111,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+complete -C /usr/bin/tofu tofu
+alias terraform="tofu"
